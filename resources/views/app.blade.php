@@ -13,8 +13,8 @@
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body>
-        <div class="container mx-auto p-4 flex justify-center items-center h-screen bg-gray-100">
+    <body class="bg-blue-50">
+        <div class="container mx-auto p-4 flex justify-center items-center h-screen">
             <div id="app"></div>
         </div>
     </body>
